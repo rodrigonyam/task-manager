@@ -1,0 +1,17 @@
+/* Dashboard Styles */
+.dashboard {
+  max-width: 100%;
+  width: 100%;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 0;
+  }
+}

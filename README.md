@@ -1,33 +1,71 @@
-# Getting Started with Create React App
+# Task Manager - Intermediate React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive task management application built with React, TypeScript, and modern development patterns. This project demonstrates intermediate to advanced React concepts and serves as a practical example for learning complex React applications.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+### Core Functionality
+- **Task Management**: Create, edit, delete, and complete tasks
+- **Advanced Filtering**: Filter by status, priority, category, and search
+- **Sorting**: Sort tasks by date, priority, or title
+- **Categories & Tags**: Organize tasks with categories and custom tags
+- **Due Dates**: Set and track task deadlines with overdue indicators
 
-### `npm start`
+### User Interface
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Modern UI**: Clean, intuitive interface with smooth animations
+- **Modal Components**: Advanced modal system for forms and dialogs
+- **Navigation**: Multi-page application with protected routes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Data & Analytics
+- **Analytics Dashboard**: Visual insights into task completion and productivity
+- **Interactive Charts**: Priority distribution, category performance, and activity trends
+- **Progress Tracking**: Completion rates and performance metrics
+- **Data Export/Import**: Backup and restore functionality
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Authentication & Security
+- **User Authentication**: Login and registration system (demo mode)
+- **Protected Routes**: Route-based access control
+- **Persistent Sessions**: Automatic login state management
 
-### `npm test`
+## 🛠 Technical Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- **React 18** with TypeScript
+- **React Router** for navigation
+- **Context API** for state management
+- **Custom Hooks** for reusable logic
+- **CSS Modules** for styling
 
-### `npm run build`
+### Libraries & Tools
+- **Lucide React** for icons
+- **Recharts** for data visualization
+- **UUID** for unique identifiers
+- **LocalStorage** for data persistence
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚦 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
+
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+3. **Open your browser**
+   Navigate to `http://localhost:3000`
+
+### Demo Login
+Use any email address and password (minimum 6 characters) to access the application.
 
 ### `npm run eject`
 
