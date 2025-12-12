@@ -52,6 +52,17 @@
   overflow-y: auto;
 }
 
+/* Desktop - Navigation is always visible */
+@media (min-width: 1025px) {
+  .layout-main {
+    margin-left: 16rem;
+  }
+  
+  .nav-toggle {
+    display: none;
+  }
+}
+
 /* Mobile Responsive */
 @media (max-width: 1024px) {
   .layout-main {

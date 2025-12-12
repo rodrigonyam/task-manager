@@ -187,6 +187,13 @@
   color: #dc2626;
 }
 
+/* Desktop Navigation - Always visible */
+@media (min-width: 1025px) {
+  .navigation {
+    transform: translateX(0);
+  }
+}
+
 /* Mobile Navigation */
 @media (max-width: 1024px) {
   .navigation {
@@ -212,5 +219,24 @@
   .navigation {
     width: 100%;
     max-width: 20rem;
+  }
+}
+
+/* Utility classes for responsive visibility */
+.desktop-hidden {
+  display: none;
+}
+
+.mobile-only {
+  display: block;
+}
+
+@media (min-width: 1025px) {
+  .desktop-hidden {
+    display: block;
+  }
+  
+  .mobile-only {
+    display: none;
   }
 }
